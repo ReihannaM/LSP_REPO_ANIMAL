@@ -22,7 +22,7 @@ public class Audiobook implements Streamable {
         System.out.println("Stopped audiobook: " + title);
     }
 
-    // Audiobook-specific behavior: change playback speed
+    // Audiobook specific behavior
     public void setPlaybackSpeed(double speed) {
         System.out.println("Setting playback speed of audiobook: " + title + " " + speed + "x");
     }
