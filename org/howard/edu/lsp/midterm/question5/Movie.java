@@ -6,7 +6,7 @@ public class Movie implements Streamable {
     public Movie(String title) {
         this.title = title;
     }
-// functions to play, pause, stop the movie
+    // functions to play, pause, stop the movie
     @Override
     public void play() {
         System.out.println("Playing movie: " + title);
