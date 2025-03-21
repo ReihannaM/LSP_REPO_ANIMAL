@@ -22,7 +22,7 @@ public class Music implements Streamable {
         System.out.println("Stopped music: " + title);
     }
 
-    // Music-specific behavior: add to playlist
+    //specific behavior
     public void addToPlaylist(String playlistName) {
         System.out.println("Added " + title + " to " + playlistName + " playlist");
     }
