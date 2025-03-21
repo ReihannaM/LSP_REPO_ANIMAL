@@ -6,7 +6,7 @@ public class Music implements Streamable {
     public Music(String title) {
         this.title = title;
     }
-
+    //play,pause, and stops each song
     @Override
     public void play() {
         System.out.println("Playing music: " + title);
