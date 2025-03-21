@@ -30,8 +30,6 @@ public class StreamingServiceDriver {
         audiobook.pause();  // Output: "Paused audiobook: A Promised Land – Barack Obama"
         audiobook.stop();   // Output: "Stopped audiobook: A Promised Land – Barack Obama"
         System.out.println();
-
-        // Test unique behaviors for each media type
         
         // Test Movie-specific behavior (rewind)
         Movie movieWithRewind = (Movie) movie;  // Cast to Movie for specific method
