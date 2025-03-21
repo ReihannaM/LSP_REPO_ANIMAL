@@ -13,3 +13,11 @@ public class WordProcessor {
         if (sentence == null || sentence.trim().isEmpty()) {
             return new ArrayList<>();
         }
+    // Split the sentence into words, handling multiple spaces
+        String[] words = sentence.trim().split("\\s+");
+
+        // Find the maximum length of the words
+        int maxLength = 0;
+        for (String word : words) {
+            maxLength = Math.max(maxLength, word.length());
+        }
