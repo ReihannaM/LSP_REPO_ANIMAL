@@ -1,4 +1,4 @@
-package org.howard.edu.lsp.midterm.question5
+package org.howard.edu.lsp.midterm.question5;
 
 public class Music implements Streamable {
     private String title;
