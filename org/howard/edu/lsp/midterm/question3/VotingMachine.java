@@ -36,3 +36,5 @@ class VotingMachine {
         return winner + " WINS with " + maxVotes + " votes!!";
     }
 }
+
+//citation: stack overflow
