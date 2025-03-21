@@ -21,3 +21,14 @@ public class WordProcessor {
         for (String word : words) {
             maxLength = Math.max(maxLength, word.length());
         }
+    // Collect all words with the maximum length
+        List<String> longestWords = new ArrayList<>();
+        for (String word : words) {
+            if (word.length() == maxLength) {
+                longestWords.add(word);
+            }
+        }
+
+        return longestWords;
+    }
+}
